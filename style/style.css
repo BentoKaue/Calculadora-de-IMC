@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+:root {
+    --color1: #BFACAA;
+    --color2: #02020A;
+    --color3: #05204A;
+    --color4: #B497D6;
+    --color5: #E1E2EF;
+}
+#particles-js {
+    width: 98%;
+    height: 98%;
+    position: absolute;
+}
+body {
+    background-color: var(--color2);
+}
+main {
+    max-width: 1240px;
+    height: 710;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    background-color: var(--color2);
+    border-radius: 20px;
+    border: 1px solid var(--color5);
+}
+img {
+    object-fit: cover;
+    height: 450px; 
+    max-width: 575px;
+    border-radius: 20px;
+    margin-right: 25px;
+}
+.principal {
+    padding: 10px;
+    display: inline-block;
+    height: 400px;
+    text-align: center;
+}
+h3 {
+    color: var(--color5);
+    font-size: 30pt;
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(243, 243, 245, 0.281);
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--color4);
+    font-size: 15pt;
+}
+input::placeholder {
+    color: var(--color5);
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input:hover {
+    background-color: var(--color5);
+}
+input:hover::placeholder{
+    color: rgba(0, 0, 0, 0.411);
+}
+p {
+    display: inline-block;
+    color: var(--color5);
+    font-family: "Madimi One", sans-serif;
+    font-size: 50pt;
+    margin-top: 35px;
+}
+button {
+    font-family: "Madimi One", sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 15pt;
+}
+button {
+    margin-top: 10px;
+}
+footer a {
+    text-align: center;
+    color: var(--color4);
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 50%;
+}
+a::before {
+    color: var(--color4);
+}

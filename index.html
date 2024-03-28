@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="img/balanca.png" type="image/x-icon">
+    <title>IMC Calculator</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <main>
+        <div class="img">
+            <img src="img/pexels-andres-ayrton-6551427.jpg">
+        </div>
+        <div class="principal">
+            <h3>CALCULADORA DE IMC</h3>
+            <form action="" id="form">
+                <input type="number" name="altura" id="altura" placeholder="Altura (ex: 1.70)" required>
+                <input type="number" name="peso" id="peso" placeholder="Peso (ex: 50.0)" required>
+                <button onclick="calcularIMC()" ondblclick="limparCampos()">Calcular</button>
+            </form>
+            <p id="resultado"></p>
+        </div>
+    </main>
+    <footer><a href="https://github.com/BentoKaue" target="_blank" rel="noopener noreferrer">ZeroDev</a></footer>
+    <script src="js/script.js"></script>
+    <script src="particles.js-master/particles.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html> 
