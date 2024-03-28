@@ -1,0 +1,4 @@
+Você já se perguntou sobre seu Índice de Massa Corporal (IMC) e como ele reflete sua saúde? Agora, com nossa Calculadora de IMC feita com HTML, CSS e JavaScript, descobrir isso está a apenas um clique de distância!
+Essa calculadora é intuitiva e fácil de usar. Basta inserir sua altura e peso nos campos designados e, em segundos, você receberá seu IMC, juntamente com uma interpretação simples do resultado, indicando se você está abaixo do peso, no peso ideal, com sobrepeso ou obesidade.
+Desenvolvemos essa ferramenta com um design limpo e responsivo, para que você possa acessá-la facilmente de qualquer dispositivo, seja desktop, tablet ou smartphone. E o melhor de tudo, é totalmente gratuita!
+Agora é hora de tomar o controle de sua saúde e começar a monitorar seu IMC de forma fácil e eficiente. Experimente nossa Calculadora de IMC hoje mesmo e dê o primeiro passo para uma vida mais saudável!
